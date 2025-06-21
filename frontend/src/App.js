@@ -3,7 +3,8 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { TrendingUp, TrendingDown, Plus, X, Loader } from 'lucide-react';
 
 // API Service
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+// On Vercel the API is served from the same domain so the default is empty
+const API_URL = process.env.REACT_APP_API_URL || '';
 
 const api = {
   async getHoldings() {
