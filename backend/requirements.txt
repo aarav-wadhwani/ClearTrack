@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+python-dotenv
+yfinance
+apscheduler
+pydantic
+pydantic-settings
+psycopg2-binary
+alembic
