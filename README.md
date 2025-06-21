@@ -7,7 +7,7 @@ This project contains a FastAPI backend and a React frontend.
 Run the backend with:
 
 ```bash
-uvicorn backend.main:app --reload
+uvicorn backend.api.main:app --reload
 ```
 
 Run the frontend with:
